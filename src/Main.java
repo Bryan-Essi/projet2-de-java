@@ -5,7 +5,7 @@ public class  Main {
         try {
             // Initialisez la connexion à la base de données
             DBconnection db = new DBconnection();
-            db.initialize("jdbc:postgresql://127.0.0.1:5432/my_pqdb", "postgres", "ulrichetluna");
+            db.initialize("jdbc:postgresql://localhost:5432/my_pqdb", "postgres", "ulrichetluna");
 
             FichierMenus.menuChoice();
 
